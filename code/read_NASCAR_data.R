@@ -19,12 +19,7 @@ for(i in 1:36){
 
 
 ###A_ij is the total number of comparisons that item i and item j are compared.
-A=matrix(0,n,n)
-for(i in 1:n){
-  for(j in 1:n){
-    if((w[i,j]+w[j,i])!= 0){A[i,j]=w[i,j]+w[j,i]}
-  }
-}
+A=playersmatrix
 
 ###D_ii is the total number of paried comparisons that i item has.
 D=matrix(0,n,n)
