@@ -77,4 +77,3 @@ mm.max
 
 ###total number of comparisons
 sum(w0)
-
