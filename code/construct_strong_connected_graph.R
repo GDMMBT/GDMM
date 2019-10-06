@@ -4,11 +4,13 @@
 ### n=285 for happiness (H)
 ### n=332 for contempt (C)
 ### n=350 for amusement (A)
+### n=1000 for chess
 ### At the end, we will get strong connected sample graph for each case
 ### n0 is the number of nodes contained in each sample graph
 ### following the code below, we will get n0=251 for (A)
 ### n0=256 for (C)
 ### n0=252 for (A)
+### n0=985 for chess
 ### w0 is the new winning matrix for the sample graph
 
 library(igraph)
