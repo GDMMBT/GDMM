@@ -19,7 +19,12 @@ for(i in 1:36){
 
 
 ###A_ij is the total number of comparisons that item i and item j are compared.
-A=playersmatrix
+A=matrix(0,83,83)
+for(k in 1:36){
+  for(i in 1:83){
+    if(sum(playersmatrix[k,]==i)==1){A[i,playersmatrix[k,]]=A[i,playersmatrix[k,]]+1}
+  }
+}
 
 ###D_ii is the total number of paried comparisons that i item has.
 D=matrix(0,n,n)
