@@ -13,7 +13,7 @@ right=combine[(length(left)+1):length(combine)]
 choice=as.numeric(choice)
 file1=data.frame(left,right,choice)
 
-#building winning matrix w_i,j denote the number of times that i beats j.
+###building winning matrix w_i,j denote the number of times that i beats j.
 
 for(i in 1:dim(file1)[1]){
   if(file1[,3][i]==1){w[file1[i,1],file1[i,2]]=w[file1[i,1],file1[i,2]]+1}
